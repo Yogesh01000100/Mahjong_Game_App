@@ -1,0 +1,25 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+}
+
+.tile {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    aspect-ratio: 1;
+    height: 80px;
+}
+
+.tile:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

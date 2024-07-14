@@ -1,0 +1,15 @@
+.success-screen {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .success-screen h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .success-screen p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  

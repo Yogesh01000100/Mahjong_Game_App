@@ -1,0 +1,36 @@
+.welcome-screen {
+    text-align: center;
+    padding: 40px; 
+    background-color: #f8f9fa; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    width: 90%; 
+    max-width: 500px; 
+    margin: auto;
+}
+
+.welcome-screen form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-screen .welcome-screen button {
+    width: 80%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid #007bff;
+}
+
+.welcome-screen button {
+    background-color: #0056b3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.welcome-screen button:hover {
+    background-color: #007bff;
+}
